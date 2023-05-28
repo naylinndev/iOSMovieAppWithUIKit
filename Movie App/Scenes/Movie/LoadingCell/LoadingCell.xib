@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Qqo-l2-6k6" customClass="LoadingCell" customModule="Gallery_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="qJY-KI-2nZ">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="NPc-tE-eJV">
+                        <rect key="frame" x="5" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="fcJ-2J-EX2"/>
+                            <constraint firstAttribute="height" constant="40" id="sie-6J-J6f"/>
+                        </constraints>
+                    </activityIndicatorView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="NPc-tE-eJV" secondAttribute="bottom" constant="10" id="94t-iF-sn7"/>
+                    <constraint firstItem="NPc-tE-eJV" firstAttribute="centerX" secondItem="qJY-KI-2nZ" secondAttribute="centerX" id="Z7t-iw-3ZT"/>
+                    <constraint firstItem="NPc-tE-eJV" firstAttribute="top" secondItem="qJY-KI-2nZ" secondAttribute="top" constant="10" id="kBu-NW-5d7"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="loadingView" destination="NPc-tE-eJV" id="zAa-Km-JO2"/>
+            </connections>
+            <point key="canvasLocation" x="-231" y="-158"/>
+        </collectionViewCell>
+    </objects>
+</document>

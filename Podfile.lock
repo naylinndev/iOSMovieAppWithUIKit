@@ -1,0 +1,75 @@
+PODS:
+  - Alamofire (5.6.4)
+  - ImageLoader (0.15.0)
+  - iOSSnapshotTestCase (8.0.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 8.0.0)
+  - iOSSnapshotTestCase/Core (8.0.0)
+  - iOSSnapshotTestCase/SwiftSupport (8.0.0):
+    - iOSSnapshotTestCase/Core
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Nimble (11.2.1)
+  - Nimble-Snapshots (9.5.1):
+    - Nimble-Snapshots/Core (= 9.5.1)
+  - Nimble-Snapshots/Core (9.5.1):
+    - iOSSnapshotTestCase (~> 8.0)
+    - Nimble (~> 11.0)
+  - PromiseKit (6.18.1):
+    - PromiseKit/CorePromise (= 6.18.1)
+    - PromiseKit/Foundation (= 6.18.1)
+    - PromiseKit/UIKit (= 6.18.1)
+  - PromiseKit/CorePromise (6.18.1)
+  - PromiseKit/Foundation (6.18.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.18.1):
+    - PromiseKit/CorePromise
+  - Quick (6.1.0)
+  - Realm (10.38.0):
+    - Realm/Headers (= 10.38.0)
+  - Realm/Headers (10.38.0)
+  - RealmSwift (10.38.0):
+    - Realm (= 10.38.0)
+  - SwiftIconFont (6.2.1)
+
+DEPENDENCIES:
+  - ImageLoader
+  - Moya
+  - Nimble
+  - Nimble-Snapshots
+  - PromiseKit
+  - Quick
+  - RealmSwift
+  - SwiftIconFont
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ImageLoader
+    - iOSSnapshotTestCase
+    - Moya
+    - Nimble
+    - Nimble-Snapshots
+    - PromiseKit
+    - Quick
+    - Realm
+    - RealmSwift
+    - SwiftIconFont
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  ImageLoader: e0635d52020d64dc7687e3a3b14dc53212ac0442
+  iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Nimble: 516ac503a0fafaa8e41dbb4a70a61be421fa893a
+  Nimble-Snapshots: ffa513489b87160d95b09e9158c9cb2bf70e00a4
+  PromiseKit: 49d70c53d5d20e346beaea4b276b5dd2ab446bb4
+  Quick: 6676ffb409bf04abba2ff23902af2407bfc6ac90
+  Realm: 5902885dd1d5e71b0b020830caab937ecdf5bf07
+  RealmSwift: 0fc037d6c32c7c4fc9362892380f380114ecdcf0
+  SwiftIconFont: b2ac08d9c18f617d0544c817f4a407b126cb9ae9
+
+PODFILE CHECKSUM: 89c2749ec46f79f87979b7b6367b28ffecff0cd0
+
+COCOAPODS: 1.12.0
