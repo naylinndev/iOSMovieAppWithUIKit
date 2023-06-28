@@ -1,6 +1,5 @@
 Movie App iOS With UI Kit
 =============
-It's sample project which is written with SwiftUI.
 
 Screenshot
 ==========
